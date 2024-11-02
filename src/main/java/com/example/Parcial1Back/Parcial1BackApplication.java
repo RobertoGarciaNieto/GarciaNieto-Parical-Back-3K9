@@ -1,0 +1,14 @@
+package com.example.Parcial1Back;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Parcial1BackApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Parcial1BackApplication.class, args);
+		System.out.println("Corriendo");
+	}
+
+}
